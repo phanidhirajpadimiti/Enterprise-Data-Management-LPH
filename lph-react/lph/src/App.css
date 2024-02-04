@@ -1,0 +1,195 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navbar Styles */
+
+.Navbar_Container {
+  margin-left: 15px;
+}
+
+/* Hero Styles */
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 100vw;
+  height: 85vh;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay p {
+  margin: 0;
+}
+
+.greeting_overlay {
+  display: flex;
+  flex-direction: column;
+  /* animation: rotateAnimation 5s linear infinite; */
+  /* Adjust the duration and easing function as needed */
+
+
+  .greeting {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .addressed_to {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* @keyframes rotateAnimation {
+  from {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+} */
+
+/* Card */
+
+.card_rows {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Headline */
+
+.headline_text {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.color {
+  background-color: #285e3d;
+
+  .nav-link {
+    color: #FFD100;
+  }
+
+  .nav-name {
+    color: #FFD100;
+  }
+}
+
+/* Footer */
+.footer_space {
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+/* Content Title & Wrapper */
+
+.content_wrapper {
+  padding: 20px;
+  margin-left: 60px;
+
+  .content_title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+.submit_button {
+  text-align: center;
+}
+
+.delbut{
+  margin-left: 10px;
+  padding: 5px !important;
+}
+
+marquee {
+  height: 85vh;
+  width: 100vw;
+  position: absolute;
+
+  .dance{
+    width: auto;
+    height: auto;
+  }
+}
+
+.createbut{
+  color: #198754;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px !important;
+}
