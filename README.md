@@ -8,9 +8,9 @@ Our database schema has been meticulously designed and normalized to the 4th Nor
 CUSTOMERS, ORDERS, ORDER DETAILS, MENU ITEMS, EMPLOYEES, DELIVERY etc.
 
 Key Features of Our 4NF Schema: <br>
-Elimination of Multi-Valued Dependencies: Our schema ensures no non-trivial multi-valued dependencies between attributes.
-Reduced Data Redundancy: By achieving 4NF, we've minimized data duplication across tables.
-Improved Data Integrity: The normalized structure helps maintain data consistency and accuracy.
+Elimination of Multi-Valued Dependencies: Our schema ensures no non-trivial multi-valued dependencies between attributes. <br>
+Reduced Data Redundancy: By achieving 4NF, we've minimized data duplication across tables. <br>
+Improved Data Integrity: The normalized structure helps maintain data consistency and accuracy. <br>
 Efficient Data Retrieval: The schema allows more efficient queries and data manipulation.
 
 ## Key Relationships <br>
