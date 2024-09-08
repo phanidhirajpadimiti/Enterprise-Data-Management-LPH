@@ -36,6 +36,7 @@ Our database system supports full CRUD (Create, Read, Update, Delete) operations
 For a comprehensive overview of the Los Pollos Hermanos Database Management System, including detailed explanations of our design decisions, implementation process, and in-depth analysis, refer to the [Project Report](https://github.com/phanidhirajpadimiti/Enterprise-Data-Management-LPH/blob/main/Project%20Report.pdf).
 
 ## Technology Stack
+- **Design:** MS Visio
 - **Database:** Oracle
 - **Backend:** Python
 - **Frontend:** React
