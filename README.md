@@ -34,6 +34,9 @@ A Procedure to calculate total sales for each menu item within a specified date 
 ### CRUD Operations <br>
 Our database system supports full CRUD (Create, Read, Update, Delete) operations for all tables in the schema. This ensures comprehensive data management capabilities across the entire Los Pollos Hermanos database system.
 
+### Project Report <br>
+For a comprehensive overview of the Los Pollos Hermanos Database Management System, including detailed explanations of our design decisions, implementation process, and in-depth analysis: Project Report
+
 ## Technology Stack
 Database: Oracle <br>
 Backend: Python <br>
